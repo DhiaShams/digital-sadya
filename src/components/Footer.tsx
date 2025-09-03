@@ -10,20 +10,18 @@ const Footer: React.FC = () => {
           <div className="flex items-center justify-center gap-2 mb-4">
             <Flower2 className="w-6 h-6 text-yellow-400" />
             <h3 className="text-xl md:text-2xl font-bold text-yellow-400">
-              ഓണത്തിന്റെ പ്രാധാന്യം
+              ഓണം
             </h3>
             <Flower2 className="w-6 h-6 text-yellow-400" />
           </div>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
             <p className="text-sm md:text-base leading-relaxed mb-4">
-              ഓണം കേരളത്തിന്റെ ഏറ്റവും പ്രധാനപ്പെട്ട ഉത്സവമാണ്. മഹാബലി ചക്രവർത്തിയുടെ 
-              വാർഷിക വരവിനെ സ്മരിക്കുന്ന ഈ പർവ്വം സമൃദ്ധിയുടെയും ഐക്യത്തിന്റെയും 
-              പ്രതീകമാണ്. ഓണസദ്യ ഈ ആഘോഷത്തിന്റെ ഹൃദയഭാഗമാണ്.
+              ഓണം കേരളത്തിന്റെ ഏറ്റവും പ്രധാനപ്പെട്ട ഉത്സവമാണ്.
+              മഹാബലി രാജാവിന്റെ തിരിച്ചുവരവിന്റെ ഓർമ്മയ്ക്കായി, ചിങ്ങമാസത്തിൽ പത്ത് ദിവസം നീണ്ടുനിൽക്കുന്ന ഒരു ആഘോഷമാണ് ഓണം. കേരളത്തിൽ ഇത് ഒരു സന്തോഷകരമായ വിളവെടുപ്പ് ഉത്സവമാണ്.
             </p>
             <p className="text-xs md:text-sm text-green-200">
-              Onam is Kerala's most important festival, celebrating the annual visit of Emperor Mahabali. 
-              This festival symbolizes prosperity and unity, with the Onam Sadya being the heart of the celebration.
+              Onam is a joyous harvest festival in Kerala, celebrated for ten days in the month of Chingam, honoring the return of King Mahabali
             </p>
           </div>
         </div>
@@ -42,13 +40,13 @@ const Footer: React.FC = () => {
             <div className="w-16 h-16 mx-auto mb-3 bg-yellow-400 rounded-full flex items-center justify-center">
               <span className="text-2xl">👑</span>
             </div>
-            <h4 className="font-semibold mb-2">മാവേലി</h4>
-            <p className="text-sm text-green-200">Maveli - The beloved king who returns during Onam</p>
+            <h4 className="font-semibold mb-2">മഹാബലി</h4>
+            <p className="text-sm text-green-200">Mahabali - The beloved king who returns during Onam</p>
           </div>
           
           <div className="text-center">
             <div className="w-16 h-16 mx-auto mb-3 bg-yellow-400 rounded-full flex items-center justify-center">
-              <span className="text-2xl">🎭</span>
+              <span className="text-2xl">🎡</span>
             </div>
             <h4 className="font-semibold mb-2">ഊഞ്ഞാൽ</h4>
             <p className="text-sm text-green-200">Onjal - Traditional swing symbolizing joy and celebration</p>

@@ -151,14 +151,14 @@ const sadyaItemsComplete = [
     malayalam: "മോര് കറി (Moru Kari)",
     ingredients: ["Buttermilk", "Coconut", "Spices"],
     significance: "A cooling, yogurt-based dish that balances the heat from other curries and aids digestion.",
-    coordinates: { left: 470, top: 320, right: 525, bottom: 370 }
+    coordinates: { left: 470, top: 310, right: 525, bottom: 360 }
   },
   {
     name: "Sambar",
     malayalam: "സാംബാർ (Sambār)",
     ingredients: ["Toor dal", "Tamarind", "Mixed vegetables", "Spices"],
     significance: "A flavorful lentil-based stew with vegetables, a cornerstone of South Indian cuisine.",
-    coordinates: { left: 545, top: 320, right: 600, bottom: 370 }
+    coordinates: { left: 545, top: 305, right: 600, bottom: 355 }
   },
   {
     name: "Choru",

@@ -42,7 +42,7 @@ const SadyaPlate: React.FC = () => {
           return (
             <div
               key={index}
-              className="absolute cursor-pointer group transition-all duration-300 ease-out"
+              className="absolute cursor-pointer"
               style={{
                 left: `${(left / 650) * 100}%`,
                 top: `${(top / 450) * 100}%`,
@@ -53,13 +53,7 @@ const SadyaPlate: React.FC = () => {
               onMouseEnter={() => setHoveredDish(dish)}
               onMouseLeave={() => setHoveredDish(null)}
             >
-              {/* Hotspot overlay */}
-              <div className="w-full h-full rounded-lg bg-gradient-to-br from-amber-400/20 to-orange-500/20 border-2 border-transparent group-hover:border-amber-400 group-hover:bg-amber-400/30 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg backdrop-blur-sm">
-                {/* Pulse animation on mobile */}
-                <div className="md:hidden absolute inset-0 rounded-lg bg-amber-400/40 animate-pulse" />
-              </div>
-              
-              {/* Hover tooltip for desktop */}
+              {/* Tooltip for desktop */}
               {hoveredDish === dish && (
                 <div className="hidden md:block absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 z-20">
                   <div className="bg-white rounded-lg shadow-xl border border-gray-200 p-3 min-w-48 max-w-64">
@@ -72,8 +66,6 @@ const SadyaPlate: React.FC = () => {
                     <p className="text-xs text-gray-500">
                       Click to learn more
                     </p>
-                    {/* Tooltip arrow */}
-                    <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-white" />
                   </div>
                 </div>
               )}
@@ -85,9 +77,7 @@ const SadyaPlate: React.FC = () => {
       {/* Instructions */}
       <div className="text-center mt-8">
         <p className="text-gray-600 text-sm md:text-base">
-          <span className="hidden md:inline">Hover over or click</span>
-          <span className="md:hidden">Tap</span>
-          {' '}any dish to discover its story and cultural significance
+          An onam sadya
         </p>
       </div>
 
