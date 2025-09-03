@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { X, Utensils, Leaf, Heart } from 'lucide-react';
+import { X, Utensils, Leaf, Heart, Volume2 } from 'lucide-react';
+import { speak } from '../utils/speak';
 
 interface SadyaItem {
   name: string;
@@ -55,7 +56,17 @@ const DishModal: React.FC<DishModalProps> = ({ dish, onClose }) => {
             )}
 
             <div className="flex-1 pr-8">
-              <h2 className="text-2xl font-bold mb-1">{dish.name}</h2>
+              <h2 className="text-2xl font-bold mb-1 flex items-center gap-2">
+                {dish.name}
+                <button
+                  onClick={() => speak(dish.malayalam, "ml-IN")}
+                  className="p-1 rounded-full bg-white/20 hover:bg-white/30 transition"
+                  aria-label="Hear pronunciation"
+                  type="button"
+                >
+                  <Volume2 className="w-5 h-5 text-white" />
+                </button>
+              </h2>
               <p className="text-amber-100 text-lg font-medium">{dish.malayalam}</p>
             </div>
 

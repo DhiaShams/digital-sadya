@@ -9,7 +9,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Paal Payasam",
-    malayalam: "പാൽ പായസം (Pāl Pāyasam)",
+    malayalam: "പാൽ പായസം (Paal Payasam)",
     ingredients: ["Rice", "Milk", "Sugar", "Ghee"],
     image: "/assets/paal_payasam.png",
     significance: "A creamy and universally loved rice pudding, symbolizing sweetness and happiness.",
@@ -17,7 +17,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Sambaram",
-    malayalam: "സംഭാരം (Sambāram)",
+    malayalam: "സംഭാരം (Sambaaram)",
     ingredients: ["Buttermilk", "Ginger", "Green Chili", "Curry Leaves"],
     image: "/assets/sambaram.png",
     significance: "Also known as spiced buttermilk, it's a refreshing and digestive drink served to cleanse the palate.",
@@ -33,7 +33,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Kalan",
-    malayalam: "കാളൻ (Kālan)",
+    malayalam: "കാളൻ (Kaalan)",
     ingredients: ["Yam", "Raw banana", "Yogurt", "Black pepper"],
     image: "/assets/kalan.png",
     significance: "A thick, yogurt-based curry with a distinct sour taste, considered very auspicious in Kerala feasts.",
@@ -41,7 +41,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Erissery",
-    malayalam: "എരിശ്ശേരി (Eriśśeri)",
+    malayalam: "എരിശ്ശേരി (Erisseri)",
     ingredients: ["Pumpkin", "Cowpeas", "Toasted coconut"],
     image: "/assets/erissery.png",
     significance: "A mildly spiced dish made from pumpkin and lentils, representing the bounty of the harvest.",
@@ -81,7 +81,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Mango Pickle",
-    malayalam: "മാങ്ങാ അച്ചാർ (Māṅṅa Achār)",
+    malayalam: "മാങ്ങാ അച്ചാർ (Manga Achar)",
     ingredients: ["Raw mango", "Chili powder", "Mustard oil"],
     image: "/assets/mango_pickle.png",
     significance: "A spicy and tangy pickle that excites the palate and aids digestion.",
@@ -97,7 +97,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Sarkara Upperi",
-    malayalam: "ശർക്കര ഉപ്പേരി (Śarkkara Upperi)",
+    malayalam: "ശർക്കര ഉപ്പേരി (Sarkkara Upperi)",
     ingredients: ["Raw banana", "Jaggery", "Ginger powder", "Cardamom"],
     image: "/assets/sarkara.png",
     significance: "A sweet chip where raw banana pieces are coated in melted jaggery and spices.",
@@ -105,7 +105,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Nendran Chips",
-    malayalam: "നേന്ത്രക്കായ വറുത്തത്",
+    malayalam: "കായ വറുത്തത്(Kaya varuthath)",
     ingredients: ["Raw Nendran banana", "Coconut oil", "Salt"],
     image: "/assets/chips.png",
     significance: "Iconic crispy chips from Kerala, fried in coconut oil, offering a savory crunch.",
@@ -121,7 +121,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Olan",
-    malayalam: "ഓലൻ (Ōlan)",
+    malayalam: "ഓലൻ (Olan)",
     ingredients: ["Ash gourd", "Cowpeas", "Coconut milk"],
     image: "/assets/olan.png",
     significance: "A very light and subtle dish cooked in thin coconut milk, symbolizing purity and simplicity.",
@@ -129,7 +129,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Cabbage Thoran",
-    malayalam: "കാബേജ് തോരൻ",
+    malayalam: "കാബേജ് തോരൻ(Cabbage Thoran)",
     ingredients: ["Cabbage", "Grated coconut", "Green chilies", "Mustard seeds"],
     image: "/assets/cabbage.png",
     significance: "A simple, dry stir-fry with shredded cabbage and coconut, symbolizing daily nourishment.",
@@ -137,7 +137,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Cucumber Kichadi",
-    malayalam: "വെള്ളരിക്ക കിച്ചടി",
+    malayalam: "വെള്ളരിക്ക കിച്ചടി(Cucumber Kichadi)",
     ingredients: ["Cucumber", "Yogurt", "Mustard seeds", "Coconut"],
     image: "/assets/cucumber.png",
     significance: "A cooling yogurt-based side dish that provides a refreshing contrast to spicier items.",
@@ -145,7 +145,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Pineapple Pachadi",
-    malayalam: "പൈനാപ്പിൾ പച്ചടി",
+    malayalam: "പൈനാപ്പിൾ പച്ചടി(Pineapple Pachadi)",
     ingredients: ["Pineapple", "Yogurt", "Coconut", "Mustard seeds"],
     image: "/assets/pineapple.png",
     significance: "A sweet and tangy yogurt-based curry that adds a festive and vibrant flavor to the meal.",
@@ -185,7 +185,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Choru",
-    malayalam: "ചോറ്",
+    malayalam: "ചോറ്(Choru)",
     ingredients: ["Parboiled rice"],
     image: "/assets/choru.png",
     significance: "The staple base of the Sadya, symbolizing prosperity and abundance. All other dishes revolve around it.",
@@ -193,7 +193,7 @@ const sadyaItemsComplete = [
   },
   {
     name: "Papadam",
-    malayalam: "പപ്പടം (Pappaṭam)",
+    malayalam: "പപ്പടം (Pappadam)",
     ingredients: ["Urad dal flour", "Salt"],
     image: "/assets/pappadam.png",
     significance: "A crispy, fried wafer that adds a delightful crunch and is often crushed over rice.",
