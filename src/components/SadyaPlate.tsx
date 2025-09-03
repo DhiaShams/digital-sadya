@@ -30,15 +30,17 @@ const SadyaPlate: React.FC = () => {
         <img
           src="/src/assets/sadya.png"
           alt="Traditional Onam Sadya"
-          className="w-full h-full object-contain rounded-2xl shadow-2xl"
+          className="w-full h-full object-contain rounded-2xl shadow-[0_4px_20px_0_rgba(0,0,0,0.3),0_-4px_20px_0_rgba(0,0,0,0.2)]"
         />
-        
+
+
+
         {/* Interactive hotspots */}
         {sadyaItems.map((dish, index) => {
           const { left, top, right, bottom } = dish.coordinates;
           const width = right - left;
           const height = bottom - top;
-          
+
           return (
             <div
               key={index}
