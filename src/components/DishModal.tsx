@@ -6,6 +6,7 @@ interface SadyaItem {
   malayalam: string;
   ingredients: string[];
   significance: string;
+  image?: string;
 }
 
 interface DishModalProps {
@@ -33,17 +34,32 @@ const DishModal: React.FC<DishModalProps> = ({ dish, onClose }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       {/* Backdrop */}
-      <div 
+      <div
         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
         onClick={onClose}
       />
-      
+
       {/* Modal content */}
       <div className="relative bg-white rounded-2xl shadow-2xl max-w-md w-full max-h-[90vh] overflow-y-auto transform transition-all duration-300 scale-100">
         {/* Header */}
         <div className="bg-gradient-to-r from-amber-500 to-orange-500 p-6 rounded-t-2xl text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-black/10" />
-          <div className="relative z-10">
+          <div className="relative z-10 flex items-center gap-4">
+            {/* Dish Image */}
+            {dish.image && (
+              <img
+                src={dish.image}
+                alt={dish.name}
+                className="w-16 h-16 rounded-full border-2 border-white shadow-md object-cover"
+              />
+            )}
+
+            <div className="flex-1 pr-8">
+              <h2 className="text-2xl font-bold mb-1">{dish.name}</h2>
+              <p className="text-amber-100 text-lg font-medium">{dish.malayalam}</p>
+            </div>
+
+            {/* Close Button */}
             <button
               onClick={onClose}
               className="absolute top-0 right-0 p-2 hover:bg-white/20 rounded-full transition-colors duration-200"
@@ -51,13 +67,6 @@ const DishModal: React.FC<DishModalProps> = ({ dish, onClose }) => {
             >
               <X className="w-5 h-5" />
             </button>
-            
-            <div className="pr-8">
-              <h2 className="text-2xl font-bold mb-2">{dish.name}</h2>
-              <p className="text-amber-100 text-lg font-medium">
-                {dish.malayalam}
-              </p>
-            </div>
           </div>
         </div>
 

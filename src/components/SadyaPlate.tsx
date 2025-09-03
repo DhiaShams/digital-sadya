@@ -23,7 +23,7 @@ const SadyaPlate: React.FC = () => {
   };
 
   return (
-    <div className="relative max-w-6xl mx-auto px-4 py-8">
+    <div className="relative max-w-6xl mx-auto px-4 py-7">
       {/* Sadya plate container */}
       <div className="relative w-full aspect-[4/3] max-w-4xl mx-auto">
         {/* Background image */}
