@@ -28,7 +28,7 @@ const SadyaPlate: React.FC = () => {
       <div className="relative w-full aspect-[4/3] max-w-4xl mx-auto">
         {/* Background image */}
         <img
-          src="/src/assets/sadya.png"
+          src="/assets/sadya.png"
           alt="Traditional Onam Sadya"
           className="w-full h-full object-contain rounded-2xl shadow-[0_4px_20px_0_rgba(0,0,0,0.3),0_-4px_20px_0_rgba(0,0,0,0.2)]"
         />
