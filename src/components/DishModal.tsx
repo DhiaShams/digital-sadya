@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { X, Utensils, Leaf, Heart, Volume2 } from 'lucide-react';
 import { speak } from '../utils/speak';
 
+
 interface SadyaItem {
   name: string;
   malayalam: string;
