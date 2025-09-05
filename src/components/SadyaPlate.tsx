@@ -78,8 +78,8 @@ const SadyaPlate: React.FC = () => {
 
       {/* Instructions */}
       <div className="text-center mt-8">
-        <p className="text-gray-600 text-sm md:text-base">
-          An onam sadya
+        <p className="text-gray-700 text-sm md:text-base bg-white/70 px-4 py-2 rounded-full inline-block shadow-sm">
+          Tap on any dish to learn more about its tradition and recipe
         </p>
       </div>
 

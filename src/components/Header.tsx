@@ -52,20 +52,6 @@ const Header: React.FC = () => {
             to discover its ingredients, preparation, and cultural significance.
           </p>
         </div>
-
-        {/* Interactive instruction + CTA */}
-        <div className="flex items-center justify-center gap-3">
-          <div
-            className="bg-white/75 backdrop-blur-sm rounded-full px-5 py-2 border border-orange-200 shadow-sm"
-            aria-live="polite"
-          >
-            <p className="text-sm md:text-base text-gray-700">
-              <span className="hidden md:inline">Hover over</span>
-              <span className="md:hidden">Tap on</span> any dish to learn more
-            </p>
-          </div>
-
-        </div>
       </div>
 
     </header>

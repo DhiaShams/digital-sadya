@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Flower2 } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -8,11 +8,9 @@ const Footer: React.FC = () => {
         {/* Onam description in Malayalam */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <Flower2 className="w-6 h-6 text-yellow-400" />
             <h3 className="text-xl md:text-2xl font-bold text-yellow-400">
               ഓണം
             </h3>
-            <Flower2 className="w-6 h-6 text-yellow-400" />
           </div>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
